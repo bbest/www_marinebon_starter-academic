@@ -1,3 +1,12 @@
+
+# Creation
+
+This site was created via the button at [Create a site with Github/Gitlab | Wowchemy: Website Builder for Hugo](https://wowchemy.com/docs/install/):
+
+<a href="https://app.netlify.com/start/deploy?repository=https://github.com/wowchemy/starter-academic" target="_blank" class="btn btn-primary px-3 py-3">Create your <strong>resumé</strong> or <strong>academic site</strong> now with Github 🚀</a>
+
+# Original...
+
 <p align="center"><a href="https://wowchemy.com" target="_blank" rel="noopener"><img src="https://wowchemy.com/img/logo_200px.png" alt="Wowchemy Website Builder"></a></p>
 
 # Academic Template for [Hugo](https://github.com/gohugoio/hugo)
