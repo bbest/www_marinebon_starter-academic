@@ -4,11 +4,11 @@
 # Add more sections by duplicating this file and customizing to your requirements.
 
 widget = "blank"  # See https://wowchemy.com/docs/page-builder/
-headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
-weight = 15  # Order that this section will appear.
+headless = true   # This file represents a page section.
+active = true     # Activate this widget? true/false
+weight = 15       # Order that this section will appear.
 
-title = "Academic Template"
+title = "Marine Biodiversity Observation Network"
 subtitle = ""
 
 [design]
@@ -25,8 +25,10 @@ subtitle = ""
   # color = "navy"
   
   # Background gradient.
-  gradient_start = "DarkGreen"
-  gradient_end = "ForestGreen"
+  # gradient_start = "DarkGreen"
+  # gradient_end = "ForestGreen"
+  gradient_start = "DarkBlue"
+  gradient_end = "LightBlue"
   
   # Background image.
   # image = "image.jpg"  # Name of image in `static/media/`.
@@ -50,9 +52,9 @@ subtitle = ""
  css_class = ""
 +++
 
-## 👋 Welcome to the Academic Template
+## Welcome to MBON
 
-The Wowchemy **Academic Resumé Template** for Hugo empowers you to create your job-winning online resumé and showcase your academic publications.
+So far, this is just using the Wowchemy **Academic Resumé Template** for Hugo.
 
 [Check out the latest demo](https://academic-demo.netlify.app) of what you'll get in less than 10 minutes, or [view the showcase](https://wowchemy.com/user-stories/).
 
