@@ -50,6 +50,7 @@ To help us develop this template and software sustainably under the MIT license,
 
 ```r
 usethis::use_github_action("blogdown")
+renv::snapshot()
 ```
 
 Per `.github/workflows/blogdown.yaml`, set secrets in the Github repo for:
