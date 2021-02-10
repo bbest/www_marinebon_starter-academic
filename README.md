@@ -39,3 +39,23 @@ To help us develop this template and software sustainably under the MIT license,
 <!--
 [![Analytics](https://ga-beacon.appspot.com/UA-78646709-2/academic-kickstart/readme?pixel)](https://github.com/igrigorik/ga-beacon)
 -->
+
+## MBON Developer
+
+### Automatic regeneration with Github Action 
+
+- https://github.com/r-lib/actions/tree/master/examples
+
+* [Chapter 3 Websites using pkgdown, bookdown, and blogdown | Github actions with R](https://ropenscilabs.github.io/actions_sandbox/websites-using-pkgdown-bookdown-and-blogdown.html#deploy-blogdown)
+
+```r
+usethis::use_github_action("blogdown")
+```
+
+Per `.github/workflows/blogdown.yaml`, set secrets in the Github repo for:
+- Github: `GITHUB_TOKEN`
+  Go to https://github.com/settings/tokens, click "Personal access tokens" menu, "Generate new token" button. Actually, looks like this is already reserved, so did nothing to add.
+- Netlify: `NETLIFY_AUTH_TOKEN`, `NETLIFY_SITE_ID`
+  See: [Deploy your bookdown project to Netlify with Github Actions | Emil Hvitfeldt](https://www.hvitfeldt.me/blog/bookdown-netlify-github-actions/)
+
+
