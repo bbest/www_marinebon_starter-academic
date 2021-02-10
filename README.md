@@ -50,6 +50,12 @@ To help us develop this template and software sustainably under the MIT license,
 
 ```r
 usethis::use_github_action("blogdown")
+
+# https://www.seanwarlick.com/post/setting-up-renv/
+install.packages('renv')
+renv::init()
+install.packages('blogdown')
+renv::settings$snapshot.type("simple")
 renv::snapshot()
 ```
 
