@@ -66,3 +66,43 @@ Per `.github/workflows/blogdown.yaml`, set secrets in the Github repo for:
   See: [Deploy your bookdown project to Netlify with Github Actions | Emil Hvitfeldt](https://www.hvitfeldt.me/blog/bookdown-netlify-github-actions/)
 
 
+### Import publications
+
+Per https://wowchemy.com/docs/content/publications/ using bibtex file exported from Zotero (that was imported using Zotero Chrome extension at [frank muller karger - Google Scholar](https://scholar.google.com/scholar?as_ylo=2017&q=frank+muller+karger&hl=en&as_sdt=0,5) and exported with Better Bibtex). In Terminal:
+
+```bash
+cd ~/github/www_marinebon
+
+# install once
+pip3 install -U academic
+
+academic import --bibtex content/publication/Frank\ Muller-Karger.bib 
+```
+
+In R Console:
+
+```r
+blogdown::serve_site()
+```
+
+* edit tags, todo: categories
+
+### add project
+
+Per https://wowchemy.com/docs/content/projects/, in Terminal:
+
+```bash
+hugo new  --kind project project/edna
+```
+
+### add custom header
+
+Added Font Awesome Pro with duotone eDNA icon by creating
+
+`layouts/partials/custom_js.html` per 
+
+https://wowchemy.com/docs/getting-started/customization/#add-scripts-js.
+
+Here's the original `theme` that this partial overrides:
+
+* [wowchemy-hugo-modules/wowchemy at main · wowchemy/wowchemy-hugo-modules](https://github.com/wowchemy/wowchemy-hugo-modules/tree/main/wowchemy)
